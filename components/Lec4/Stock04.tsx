@@ -42,7 +42,7 @@ const Stocks: React.FC = () => {
         const formattedDates = datesArray
           .map(date => {
             const d = new Date(date);
-            return `${d.getDate()}/${d.toLocaleString('default', { month: 'short' })}`;
+            return `${d.getDate()} ${d.toLocaleString('default', { month: 'short' })}`;
           })
           .reverse();
 
