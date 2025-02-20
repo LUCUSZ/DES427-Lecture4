@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Dimensions, Switch } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import StockButton from './StockButton'; // Assuming this exists
-import API from '@/components/Lec4/api_no_key'; // Assuming this exists
+import API from '@/components/Lec4/api'; // Assuming this exists
 
 interface StockData {
   "Time Series (Daily)"?: {

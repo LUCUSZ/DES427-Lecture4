@@ -13,7 +13,7 @@ import {
 } from 'react-native-chart-kit'
 
 import StockButton from './StockButton'; 
-import API from '@/components/Lec4/api_no_key'; 
+import API from '@/components/Lec4/api'; 
 
 interface DataPoint {
   labels: string[];
